@@ -4,7 +4,7 @@
 curr_file=$0
 
 # Checks if file exists
-if [[ -a ${curr_file} ]]; then
+if [[ -e ${curr_file} ]]; then
     echo "${curr_file} exists!!"
 else 
     echo "${curr_file} doesn't exist!!"

@@ -5,13 +5,13 @@ array=("value1" "value2" "value3")
 num_array=(1 2 3 4 5)
 
 # print single element
-echo ${num_array[0]}
+echo "${num_array[0]}"
 
 # print all elements
-echo ${array[@]}
+echo "${array[@]}"
 
 # print last element
-echo ${array[-1]}
+echo "${array[-1]}"
 
 # size of the array
-echo ${#array[@]}
+echo "${#array[@]}"
